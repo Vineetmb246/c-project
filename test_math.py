@@ -2,6 +2,8 @@
 def add(a, b):
     return a + b
 
-# Test function for add()
 def test_add():
-    assert add(2, 3) == 5
+    result = add(2, 3)
+    print(f"Result of add(2, 3): {result}")
+    assert result == 5
+
